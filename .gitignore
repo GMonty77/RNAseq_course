@@ -1,0 +1,9 @@
+logs/
+results/
+resources/
+*bam
+*.fastq.qzlogs/
+results/
+resources/
+*bam
+*.fastq.qz
