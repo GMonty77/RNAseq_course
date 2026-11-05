@@ -14,8 +14,8 @@ set -euo pipefail
 
 # ---- Settings & Variables ----
 WORKDIR=/data/users/$USER/rnaseq_course
-INPUT_DIR=$WORKDIR/results/fastqc
-OUT_DIR=$WORKDIR/results/multiqc
+INPUT_DIR=$WORKDIR/results
+OUT_DIR=$WORKDIR/results/multiqc_fastp
 CONTAINER=/containers/apptainer/multiqc-1.33.sif
 
 # Ensure log and output directories exist
