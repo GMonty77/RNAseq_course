@@ -1,9 +1,17 @@
 logs/
 results/
 resources/
-*bam
-*.fastq.qzlogs/
-results/
-resources/
-*bam
-*.fastq.qz
+# Large sequencing, alignment, and count files
+*.fastq.gz
+*.bam
+*.bai
+*.sam
+*.gtf
+*.fa
+*.fna
+
+# R temporary / environment files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
